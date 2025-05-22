@@ -2,18 +2,15 @@ package com.nmb
 
 fun main() {
 
-    var number : Int? = null
-    number = null
-    number = 2
+//    var fruit : Fruit? = null
+//
+//    fruit = Fruit(name = "Mango")
 
-    val color = "Yellow"
+    lateinit var fruit : Fruit
 
-    number = 12
+    fruit = Fruit("apple")
 
-    number = 20
-
-    var date : String? = null
-    date = null
-    date = "12 May 2025"
 
 }
+
+class Fruit(val name: String)
