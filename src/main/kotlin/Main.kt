@@ -1,15 +1,15 @@
 package com.nmb
 
-import java.util.Scanner
-
 fun main() {
-//    println("Please enter a number:")
-//    val number = readLine()?.toInt()
-//    println("Your number is $number")
+
+    var number = 10
+
+    val color = "Yellow"
+
+    number = 12
+
+    number = 20
 
 
-   /* println("Please enter a double number:")
-    val scanner = Scanner(System.`in`)
-    val num = scanner.nextDouble()
-    println("Your number is $num")*/
+
 }
