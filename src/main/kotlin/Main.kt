@@ -1,7 +1,7 @@
 package com.nmb
 
 fun main() {
-    println("Hello World!")
-    println("One")
-    print("Two")
+    println("Please enter your name:")
+    val name = readLine()
+    println("Your name is $name")
 }
