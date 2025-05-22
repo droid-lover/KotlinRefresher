@@ -2,15 +2,13 @@ package com.nmb
 
 fun main() {
 
-//    var fruit : Fruit? = null
-//
-//    fruit = Fruit(name = "Mango")
+    val fruit by lazy {
+        Fruit("Apple")
+    }
 
-    lateinit var fruit : Fruit
-
-    fruit = Fruit("apple")
-
-
+    println(fruit)
 }
 
-class Fruit(val name: String)
+class Fruit(val name: String){
+
+}
